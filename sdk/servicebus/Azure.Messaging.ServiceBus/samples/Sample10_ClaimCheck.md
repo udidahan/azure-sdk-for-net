@@ -55,4 +55,4 @@ if (receivedMessage.ApplicationProperties.TryGetValue("blob-name", out object bl
 
 ## Additional Resources
 
-Some 3rd party libraries provide support for this pattern out of the box, including the NServiceBus via its [data bus](https://docs.particular.net/samples/azure/blob-storage-databus/) and MassTransit via its [claim check](https://masstransit.io/documentation/patterns/claim-check).
+Some 3rd party libraries provide support for this pattern out of the box, including NServiceBus via its [data bus](https://docs.particular.net/samples/azure/blob-storage-databus/) and MassTransit via its [claim check](https://masstransit.io/documentation/patterns/claim-check).
